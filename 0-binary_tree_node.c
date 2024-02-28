@@ -16,7 +16,7 @@ if (new_node == NULL)
 return (NULL);
 }
 
-new_node->value = value;
+new_node->n = value;
 new_node->parent = parent;
 new_node->left = NULL;
 new_node->right = NULL;

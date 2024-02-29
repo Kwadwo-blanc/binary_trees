@@ -37,8 +37,8 @@ if (tree && height(tree->left) == height(tree->right))
 if (height(tree->left) == -1)
 return (1);
 
-if ((tree->left && !((tree->left)->left) && !((tree->left)->right))
-&& (tree->right && !((tree->right)->left) && !((tree->right)->right)))
+if ((tree->left && !((tree->left)->left) &&!((tree->left)->right))
+&&(tree->right && !((tree->right)->left) &&!((tree->right)->right)))
 return (1);
 if (tree && tree->left && tree->right)
 return (binary_tree_is_perfect(tree->left) &&
